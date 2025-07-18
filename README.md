@@ -34,19 +34,60 @@ Excel Dashboards: Designed to provide interactivity and a clear overview by inte
 Prior to analysis, the dataset was carefully cleaned and transformed to ensure it was accurate, consistent, and compatible with tools such as Microsoft Excel.
 
 Filtering: Removed irrelevant entries and duplicate values in the Product and Category columns to reduce unnecessary characters and ensure uniqueness.
+
 Text Cleaning: Applied the =CLEANTRIM function to eliminate special characters and extra spaces, and used the =PROPER function to standardize text casing—essential for accurate sentiment and keyword analysis.
 
 Column Elimination: Removed non-essential columns that did not contribute to the analysis.
+
 New Column Creation: Introduced calculated fields such as Price Bucket, Potential Revenue, High Discount, Reviews, and Rating Score to provide a foundation for deeper insights and analytical comparisons.
 
 Data Formatting: Assigned appropriate data types and formatting to ensure consistency and compatibility across the dataset.
 
+**Data Review & Understanding**
 
+Data Review was conducted to know the behaviour of the dataset before carrying out proper Analysis and visualization
 
+1. What is the average discount percentage by product category?
 
+2. How many products are listed under each category?
 
+3. What is the total number of reviews per category?
 
+4. Which products have the highest average ratings?
 
+5. What is the average actual price vs the discounted price by category?
 
+6. Which products have the highest number of reviews?
 
+7. How many products have a discount of 50% or more?
+
+8. What is the distribution of product ratings (e.g., how many products are rated 3.0, 4.0, etc.)?
+
+9. What is the total potential revenue (actual_price × rating_count) by category?
+
+**INSIGHT FROM THE REVIEW**
+
+Most products received high customer ratings.
+
+Significant discounts tend to boost sales volume.
+
+The number of reviews varies greatly across products.
+
+Products with lower ratings generally show reduced customer engagement.
+
+Certain low-priced products generate substantial revenue.
+
+**OBSERVATION**
+
+Most products cluster within a tight rating range of 4.0 to 4.5
+
+Products with higher review counts generally correspond to greater potential revenue.
+
+Items with lower ratings have noticeably fewer reviews, limiting their overall impact.
+
+Lower-priced products can still perform strongly when sales volume is high.
+
+**Conclusion**
+
+The analysis reveals that most products maintain consistently high ratings within a narrow range, indicating general customer satisfaction. Products that garner more reviews tend to generate higher potential revenue, highlighting the importance of customer engagement. Conversely, lower-rated items attract fewer reviews, which diminishes their market influence. Additionally, lower-priced products can achieve strong performance when supported by high sales volume, underscoring the role of pricing strategy in driving success.
 
